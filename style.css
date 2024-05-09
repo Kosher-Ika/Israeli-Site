@@ -11,6 +11,7 @@ body {
     width: 80px;
     height: auto;
     cursor: pointer;
+    margin-top: 5px;
 }
 
 nav {
@@ -142,3 +143,103 @@ font-weight: bold;
 
 
 /* another */
+.grand {
+    display: flex;
+    background-color: gray;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 800px;
+    font-size: 40px;
+    font-style: italic;
+   
+}
+
+.autor {
+    font-size: 25px;
+    font-weight: bold;
+    align-self: flex-end;
+
+}
+
+.position {
+    display: flex;
+    flex-direction: column;
+}
+
+/* new */
+
+ .before {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin-bottom: 30px;
+} 
+.mother {
+    width: 1000px;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    background-color: blue;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    border-radius: 20px;
+    border: 4px solid black;
+}
+
+.mother button{
+width: 150px;
+height: 35px;
+border: 2px solid white;
+background-color: blue;
+color: white;
+font-weight: bold;
+font-size: 20px;
+border-radius: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+cursor: pointer;
+
+}
+
+
+.mother button:hover{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+  
+    
+    }
+
+.son h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.son p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
