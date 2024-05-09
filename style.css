@@ -16,6 +16,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 ul {
@@ -39,4 +40,47 @@ a {
 
 .container {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+   
 }
+
+ .hasidic {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+} 
+
+.intro {
+    color: white;
+
+}
+
+.intro button {
+    width: 110px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: chartreuse;
+    color: black;
+    font-weight: bold;
+    border: none;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.intro h1 {
+    width: 400px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.intro p {
+width: 400px;
+font-size: 20px;
+color: white;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+}
+
