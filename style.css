@@ -48,6 +48,7 @@ a:hover {
     align-items: center;
     margin: 0;
     padding: 0;
+    margin-bottom: 120px;
 
    
 }
@@ -98,11 +99,43 @@ font-weight: bold;
 
 /* another part */
 .info {
-    background-color: whitesmoke;
+    background-color: black;
+    font-weight: bold;
+    padding: 20px;
+   
     
 }
 
 .info h1 {
    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    color: red;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.info p {
+    text-align: center;
+    color: yellow;
+  
+}
+
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.info img {
+    border: 2px solid red;
+}
+.parent img {
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+}
+
+.parent p {
+    width: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
