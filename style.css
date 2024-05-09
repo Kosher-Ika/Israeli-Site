@@ -48,6 +48,7 @@ a:hover {
     align-items: center;
     margin: 0;
     padding: 0;
+
    
 }
 
@@ -97,6 +98,11 @@ font-weight: bold;
 
 /* another part */
 .info {
-    background-color: white;
+    background-color: whitesmoke;
     
+}
+
+.info h1 {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
