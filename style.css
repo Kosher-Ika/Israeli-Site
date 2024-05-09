@@ -243,3 +243,13 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
 }
+
+.son p::selection {
+    background: chartreuse;
+    color: black;
+}
+
+.son h1::selection {
+    background: chartreuse;
+    color: black;
+}
