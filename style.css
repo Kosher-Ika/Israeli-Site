@@ -10,6 +10,7 @@ body {
 .icon {
     width: 80px;
     height: auto;
+    cursor: pointer;
 }
 
 nav {
@@ -34,6 +35,9 @@ a {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+}
+a:hover {
+    color: aqua;
 }
 
 /* styling main top */
@@ -68,6 +72,13 @@ a {
     font-weight: bold;
     border: none;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   cursor: pointer;
+}
+
+.intro button:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
 }
 
 .intro h1 {
